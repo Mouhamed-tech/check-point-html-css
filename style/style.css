@@ -6,6 +6,7 @@
 h1{
  color:blue;
  background-color: yellow;
+ 
 
 }
 .mouha{
@@ -16,12 +17,18 @@ h2{
   color: blue;
   background-color: yellow;
 }
- header ul{
-  display:flex;
-}
-header ul li{
-  margin: 10px;
-}
+ header{
+  nav{
+    ul{
+      display: flex;
+      li{
+        list-style: none;
+        margin: 10px;
+      }
+    }
+  
+  }
+ }
 body{
   background-color: greenyellow;
 }
